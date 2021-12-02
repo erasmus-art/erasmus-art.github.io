@@ -1,0 +1,12 @@
+.bg-gradient {
+  background: rgb(0, 102, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 102, 0, 1) 27%,
+    rgba(149, 42, 0, 1) 36%,
+    rgba(234, 8, 0, 1) 49%,
+    rgb(233, 14, 14) 79%
+  );
+
+  max-width: 100%;
+}
