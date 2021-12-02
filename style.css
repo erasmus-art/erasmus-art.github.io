@@ -28,13 +28,22 @@ label.logo {
   font-size: 35px;
   font-weight: bold;
   line-height: 60px;
-  margin-left: 40px;
+  margin-left: 20px;
+}
+.logo-holder {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
 }
 .header-ul {
-  float: right;
   height: 60px;
   margin-right: 50px;
   position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav ul li {
@@ -53,7 +62,7 @@ header a:hover,
 footer a.active,
 footer a:hover {
   color: #44b3e2;
-  color: rgb(53, 52, 52);
+  color: rgb(53, 53, 52);
 }
 
 footer {
@@ -87,4 +96,43 @@ footer {
 }
 .activities-dropdown-menu li {
   display: block;
+}
+.partners-dropdown-menu {
+  display: none;
+}
+
+.partners-dropdown-menu {
+  position: absolute;
+  right: 10px;
+}
+.partners-dropdown-menu li {
+  display: block;
+}
+
+.rounded-edges {
+  border-radius: 12px;
+}
+.font-border {
+  text-shadow: 0 0 2px #000000, 0 0 3px #000000;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-img {
+  width: 55px;
+  border-radius: 50%;
+  border: 1px solid rgba(28, 110, 164, 0.14);
+}
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+}
+.copyright img {
+  width: 30%;
 }
