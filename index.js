@@ -37,3 +37,19 @@ if (document.querySelector('.partners-dropdown-toggle')) {
         }
     })
 }
+
+function closeDrowDowns() {
+    var activities = document.querySelector('.activities-dropdown-menu');
+    var partners = document.querySelector('.partners-dropdown-menu');
+    activities ? activities.style.display = 'none' : null;
+    partners ? partners.style.display = 'none' : null;
+}
+
+//mobile navigation toggle
+document.querySelector('.fa-bars').addEventListener('click', () => {
+    var headerUl = document.querySelector('.header-ul');
+
+    closeDrowDowns();
+    headerUl.style.display == 'flex' ? headerUl.style.display = 'none' : headerUl.style.display = 'flex';
+
+});
