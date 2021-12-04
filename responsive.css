@@ -1,0 +1,80 @@
+@media all and (min-width: 460px) and (max-width: 660px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .header-ul {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 185px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .fa-bars {
+    font-size: 25px;
+    display: block;
+    margin-left: 30px;
+  }
+
+  .activities-dropdown-menu {
+    width: 200px;
+    display: block;
+    right: -35px;
+    max-width: 150% !important;
+  }
+}
+
+@media all and (min-width: 380px) and (max-width: 460px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .header-ul {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .fa-bars {
+    font-size: 25px;
+    display: block;
+    margin-left: 30px;
+  }
+
+  .activities-dropdown-menu {
+    width: 200px;
+    display: block;
+    right: -35px;
+    max-width: 150% !important;
+  }
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
