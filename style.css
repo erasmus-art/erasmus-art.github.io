@@ -111,7 +111,7 @@ footer {
   display: none;
   position: absolute;
   right: 10px;
-  z-index: 2;
+  z-index: 5;
 }
 
 .activities-dropdown-menu li {
@@ -220,7 +220,7 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
 }
 
 .gallery-ul li {
@@ -232,4 +232,80 @@ img {
 
 .gallery-ul .img-holder {
   margin: -5px;
+}
+
+.activity_title {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.seperator-holder {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seperator-text {
+  position: relative;
+  z-index: 2;
+  border-radius: 5px;
+  background-color: #234465;
+  font-size: 11px;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 32px;
+}
+
+.seperator-holder::after {
+  content: "";
+  width: auto;
+  height: 1px;
+  display: block;
+  background-color: #7a7a7a;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.seperator-text p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.activity-gallery-ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 220px;
+}
+
+.activity-gallery-ul li {
+  flex-basis: 25%;
+  margin: 10px;
+  margin-bottom: 30px;
+  box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);
+}
+
+.activity-gallery-ul .img-holder {
+  margin: -5px;
+}
+
+.activity-page-view {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.activity-page-view .gallery-title {
+  font-size: 35px;
 }

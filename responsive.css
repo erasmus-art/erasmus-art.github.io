@@ -43,6 +43,10 @@
   .card:nth-child(3) {
     flex-direction: column-reverse !important;
   }
+
+  .activity-gallery-ul li {
+    flex-basis: unset !important;
+  }
 }
 
 /* Phone view */
@@ -89,6 +93,10 @@
 
   .card:nth-child(3) {
     flex-direction: column-reverse !important;
+  }
+
+  .activity-gallery-ul li {
+    flex-basis: unset !important;
   }
 }
 
