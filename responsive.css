@@ -50,9 +50,11 @@
 
   .activity-gallery-ul li {
     flex-basis: unset !important;
+    width: 100%;
   }
 
-  .project-logos-parent .gallery-ul {
+  .project-logos-parent .gallery-ul,
+  .img-gallery .activity-gallery-ul {
     flex-direction: column;
   }
 }
@@ -109,9 +111,11 @@
 
   .activity-gallery-ul li {
     flex-basis: unset !important;
+    width: 100%;
   }
 
-  .project-logos-parent .gallery-ul {
+  .project-logos-parent .gallery-ul,
+  .img-gallery .activity-gallery-ul {
     flex-direction: column;
   }
 }

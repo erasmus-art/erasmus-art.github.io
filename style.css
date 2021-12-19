@@ -286,13 +286,14 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  align-content: center;
   margin-bottom: 10px;
 }
 
 .activity-gallery-ul li {
   flex-basis: 25%;
   margin: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);
 }
 
@@ -318,7 +319,7 @@ img {
 
 .project-logos-parent .gallery-ul li {
   flex-basis: 25%;
-  margin-bottom: 45px;
+  margin-bottom: 60px;
   position: relative;
 }
 
@@ -336,4 +337,8 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.halloween-gallery-ul li {
+  flex-basis: 17% !important;
 }
