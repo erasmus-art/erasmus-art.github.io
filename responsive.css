@@ -15,6 +15,10 @@
     margin: 0 auto;
   }
 
+  .project-title-img {
+    width: 75% !important;
+  }
+
   .fa-bars {
     font-size: 25px;
     display: block !important;
@@ -46,6 +50,10 @@
 
   .activity-gallery-ul li {
     flex-basis: unset !important;
+  }
+
+  .project-logos-parent .gallery-ul {
+    flex-direction: column;
   }
 }
 
@@ -66,6 +74,10 @@
     margin: 0 auto;
   }
 
+  .project-title-img {
+    width: 75% !important;
+  }
+
   .fa-bars {
     font-size: 25px;
     display: block !important;
@@ -97,6 +109,10 @@
 
   .activity-gallery-ul li {
     flex-basis: unset !important;
+  }
+
+  .project-logos-parent .gallery-ul {
+    flex-direction: column;
   }
 }
 

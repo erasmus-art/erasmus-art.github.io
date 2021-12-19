@@ -315,3 +315,25 @@ img {
 .last-activity-gallery-ul {
   margin-bottom: 220px;
 }
+
+.project-logos-parent .gallery-ul li {
+  flex-basis: 25%;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.project-logos-parent .gallery-ul li img {
+  margin-bottom: -5px;
+}
+
+.nominee-name {
+  position: absolute;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: dodgerblue;
+  top: 105%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
