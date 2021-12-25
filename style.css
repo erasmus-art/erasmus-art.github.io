@@ -189,9 +189,11 @@ img {
 .card .img-holder {
   flex-basis: 40%;
 }
+
 .card img {
   box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);
   border-radius: 5px;
+  width: 80%;
 }
 .card .text-holder {
   flex-basis: 50%;
@@ -212,6 +214,7 @@ img {
 }
 .card-description {
   font-size: 20px;
+  line-height: 30px;
 }
 
 .gallery-ul {
@@ -224,7 +227,7 @@ img {
 }
 
 .gallery-ul li {
-  /* flex-basis: 25%; */
+  flex-basis: 25%;
   margin: 10px;
   margin-bottom: 30px;
   box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);

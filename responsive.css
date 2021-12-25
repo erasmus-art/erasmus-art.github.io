@@ -42,6 +42,7 @@
 
   .card-img {
     margin: 25px 0px !important;
+    width: 100% !important;
   }
 
   .card:nth-child(3) {
@@ -50,12 +51,12 @@
 
   .activity-gallery-ul li {
     flex-basis: unset !important;
-    width: 100%;
   }
 
   .project-logos-parent .gallery-ul,
-  .img-gallery .activity-gallery-ul {
-    flex-direction: column;
+  .img-gallery .activity-gallery-ul,
+  .gallery-ul {
+    flex-direction: column !important;
   }
 }
 
@@ -103,6 +104,7 @@
 
   .card-img {
     margin: 25px 0px !important;
+    width: 100% !important;
   }
 
   .card:nth-child(3) {
@@ -115,8 +117,9 @@
   }
 
   .project-logos-parent .gallery-ul,
-  .img-gallery .activity-gallery-ul {
-    flex-direction: column;
+  .img-gallery .activity-gallery-ul,
+  .gallery-ul {
+    flex-direction: column !important;
   }
 }
 
