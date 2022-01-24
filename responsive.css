@@ -36,6 +36,19 @@
     flex-direction: column;
   }
 
+  .activities-boxes-holder {
+    flex-direction: column;
+    align-items: stretch !important;
+  }
+
+  .activities-boxes-holder .activity-box-link {
+    margin: 20px 0px;
+  }
+
+  .activities-boxes-holder .activity-box-link img {
+    height: 145px;
+  }
+
   .card .text-holder {
     margin: 0;
   }
@@ -96,6 +109,19 @@
 
   .page-view article.card {
     flex-direction: column;
+  }
+
+  .activities-boxes-holder {
+    flex-direction: column;
+    align-items: stretch !important;
+  }
+
+  .activities-boxes-holder .activity-box-link {
+    margin: 20px 0px;
+  }
+
+  .activities-boxes-holder .activity-box-link img {
+    height: 145px;
   }
 
   .card .text-holder {
