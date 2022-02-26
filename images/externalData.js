@@ -10,3 +10,15 @@ export const headers = {
     'X-Parse-Application-Id': privateKeys.ApplicationId,
     'X-Parse-REST-API-Key': privateKeys.RESTKey,
 }
+
+export const footerContent =
+    `<section class="copyright">
+<img src="/images/euro-fund.jpg">
+<img src="/images/erasmus-euro.png">
+</section>
+
+<footer class="footer bg-gradient">
+<label class="text-center footer-text font-border">
+    <p>Made by <a class="footer-text" href="https://github.com/Boyan-Apostolov">Boyan Apostolov</a></p>
+</label>
+</footer>`;

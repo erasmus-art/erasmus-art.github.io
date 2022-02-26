@@ -1,10 +1,11 @@
-import { privateKeys, headers } from "./images/externalData.js";
+import { privateKeys, headers, footerContent } from "./images/externalData.js";
 
 window.addEventListener('load', async () => {
     if (window.location.href.includes('index.html')) {
         var ipData = await getIpData();
         await addIpRecordToDb(ipData);
     }
+    document.querySelector('.page-end').innerHTML = footerContent;
 });
 
 // activities drowdown
