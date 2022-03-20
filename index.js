@@ -6,6 +6,16 @@ window.addEventListener('load', async () => {
         await addIpRecordToDb(ipData);
     }
     document.querySelector('.page-end').innerHTML = footerContent;
+    document.querySelector('head').innerHTML +=
+        `<script type='text/javascript'>
+    window.smartlook||(function(d) {
+      var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+      var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+      c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+      })(document);
+      smartlook('init', '1a891ddab35e9b4fba2e445f77ac5954ff43682c', { region: 'eu' });
+  </script>`
+
 });
 
 // activities drowdown
