@@ -1,7 +1,4 @@
 import { privateKeys, headers, footerContent } from "./images/externalData.js";
-import mixpanel from './node_modules/mixpanel-browser';
-mixpanel.init(privateKeys.analyticsKey, { debug: false });
-mixpanel.track('Sign up');
 
 window.addEventListener('load', async () => {
     if (window.location.href.includes('index.html')) {
