@@ -38,6 +38,7 @@ label.logo {
   display: flex;
   align-items: center;
   margin-left: 30px;
+  padding: 5px;
 }
 .header-ul {
   display: block;

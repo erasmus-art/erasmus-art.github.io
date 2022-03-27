@@ -1,22 +1,13 @@
 import { privateKeys, headers, footerContent } from "./images/externalData.js";
+import mixpanel from 'mixpanel-browser';
+mixpanel.init(privateKeys.analyticsKey, { debug: false });
+mixpanel.track('Sign up');
 
 window.addEventListener('load', async () => {
     if (window.location.href.includes('index.html')) {
         var ipData = await getIpData();
         await addIpRecordToDb(ipData);
     }
-
-    var script = document.createElement('script');
-    script.innerHTML = `
-    window.smartlook||(function(d) {
-      var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-      var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-      c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
-      })(document);
-      smartlook('init', '1a891ddab35e9b4fba2e445f77ac5954ff43682c', { region: 'eu' });
-        `;
-
-    document.querySelector('head').append(script);
 
     document.querySelector('.page-end').innerHTML = footerContent;
 
