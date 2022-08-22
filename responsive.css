@@ -101,9 +101,9 @@
   }
 
   .activities-dropdown-menu {
-    width: 200px;
+    width: 500%;
     display: block;
-    right: -35px;
+    right: -35px !important;
     max-width: 150% !important;
   }
 

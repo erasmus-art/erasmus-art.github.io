@@ -42,7 +42,7 @@ label.logo {
 }
 .header-ul {
   display: block;
-  height: 60px;
+  height: 50px;
   margin-right: 50px;
   position: relative;
 }
@@ -50,12 +50,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.23);
 }
 
 nav ul li {
   display: inline-block;
-  line-height: 60px;
+  line-height: 47px;
   margin: 0px 20px;
+  z-index: 9;
 }
 
 nav ul li a,
@@ -78,6 +80,7 @@ footer a:hover {
 }
 
 footer {
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.23);
   height: 60px;
   display: flex;
   align-items: center;
@@ -113,6 +116,7 @@ footer {
   position: absolute;
   right: 10px;
   z-index: 5;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.23);
 }
 
 .activities-dropdown-menu li {
@@ -142,7 +146,7 @@ img {
 }
 .logo-img {
   object-fit: cover;
-  width: 55px;
+  width: 50px;
   border-radius: 50%;
   box-shadow: -1px 1px 10px 3px rgba(0, 0, 0, 0.23);
 }
