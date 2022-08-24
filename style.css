@@ -91,6 +91,17 @@ footer {
   left: 0;
 }
 
+.project-text-holder{
+  width: 70%;
+    margin: 9 auto;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+.schools-holder{
+  margin-top: 20px;
+}
+
 .copyright {
   display: flex;
   flex-direction: row;
@@ -323,6 +334,10 @@ img {
 
 .last-activity-gallery-ul {
   margin-bottom: 220px;
+}
+.schools-holder .project-logo-holder{
+  flex-basis: 47% !important;
+  margin-bottom: 83px !important;
 }
 
 .project-logos-parent .gallery-ul li {
