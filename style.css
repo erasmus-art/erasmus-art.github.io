@@ -340,6 +340,10 @@ img {
   margin-bottom: 83px !important;
 }
 
+.project-logos-parent{
+  margin-bottom: 20px;
+}
+
 .project-logos-parent .gallery-ul li {
   flex-basis: 25%;
   margin-bottom: 60px;
